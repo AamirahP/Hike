@@ -1,0 +1,243 @@
+#H1 {
+
+    text-align: center;
+
+    color: rgb(18, 193, 18);
+
+    position: relative;
+
+    animation: mymove 4s infinite;
+
+}
+
+ 
+
+@keyframes mymove {
+
+    from {left: 0px;}
+
+    to {left: 200px;}
+
+   
+
+}
+
+ 
+
+a {
+
+    text-decoration: none;
+
+}
+
+ 
+
+body {
+
+    background-color: olive;
+
+    text-align: center;
+
+}
+
+ 
+
+.title:hover {
+
+    background-color: darkolivegreen;
+
+ 
+
+}
+
+ 
+
+#LowMam {
+
+    width: 300px;
+
+    height: 200px;
+
+    object-fit: cover;
+
+}
+
+ 
+
+img {
+
+    width: 500px;
+
+    height: 400px;
+
+    object-fit: cover;
+
+    border: 1px solid black;
+
+    border-radius: 4px;
+
+    padding: 5px;
+
+}
+
+ 
+
+#LowMam {
+
+    width: 500px;
+
+    height: 400px;
+
+}
+
+.Hiking-places {
+
+    text-decoration: double;
+
+    text-size-adjust: 100px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+ 
+
+.title {
+
+    background-color: rgb(14, 176, 25);
+
+    color: black;
+
+    border-style: double;
+
+    border-width: 5px;
+
+    border-radius: 12px;
+
+    padding: 5px;
+
+}
+
+ 
+
+.element-class:hover {
+
+    cursor: pointer;
+
+}
+
+ 
+
+.Hike-description {
+
+ 
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-size: medium;
+
+ 
+
+}
+
+ 
+
+.dropbtn {
+
+    align-items: left;
+
+    text-align: left;
+
+    background-color: rgb(16, 118, 7);
+
+    color: white;
+
+    padding: 16px;
+
+    font-size: 16px;
+
+    border: none;
+
+    cursor: pointer;
+
+    }
+
+ 
+
+.dropdown {
+
+    position: relative;
+
+    display: inline-block;
+
+    text-align: center;
+
+}
+
+ 
+
+.dropdown-content {
+
+    display: none;
+
+    position: absolute;
+
+    background-color: rgb(56, 182, 102);
+
+    min-width: 160px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    z-index: 1;
+
+    text-align: center;
+
+}
+
+ 
+
+.dropdown-content a {
+
+    color: black;
+
+    padding: 12px 16px;
+
+    text-decoration: none;
+
+    display: block;
+
+}
+
+ 
+
+.dropdown-content a:hover {background-color: aqua;}
+
+ 
+
+.dropdown-content .dropdown-content {
+
+    display: block;
+
+}
+
+ 
+
+.dropdown:hover .dropdown-content {
+
+    display: block;
+
+}
+
+ 
+
+ 
+
+   
+
+.myHeader {
+
+    position: fixed;
+
+    width: 100%;
+
+}
